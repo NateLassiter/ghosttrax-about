@@ -104,8 +104,14 @@ h1 {
   color: #fff;
   font-size: 60px;
 }
+@media (max-width: 767px) {
+  /* line 123, ../../sass/main.scss */
+  h1 {
+    font-size: 30px;
+  }
+}
 
-/* line 128, ../../sass/main.scss */
+/* line 131, ../../sass/main.scss */
 h3 {
   color: #cbcbcb;
   font-size: 30px;
@@ -114,159 +120,243 @@ h3 {
   padding-left: 20px;
   padding-right: 20px;
 }
+@media (max-width: 767px) {
+  /* line 131, ../../sass/main.scss */
+  h3 {
+    font-size: 24px;
+  }
+}
 
-/* line 137, ../../sass/main.scss */
+/* line 143, ../../sass/main.scss */
 h4 {
   color: #aaa;
 }
 
-/* line 142, ../../sass/main.scss */
+/* line 147, ../../sass/main.scss */
 .section2 h3 {
   max-width: 860px;
 }
 
-/* line 146, ../../sass/main.scss */
+/* line 151, ../../sass/main.scss */
 .section3 h3 {
   max-width: 990px;
 }
 
-/* line 150, ../../sass/main.scss */
+/* line 155, ../../sass/main.scss */
 .section4 h3 {
   max-width: 1000px;
 }
 
-/* line 154, ../../sass/main.scss */
+/* line 159, ../../sass/main.scss */
 .section5 h3 {
   position: absolute;
 }
 
-/* line 158, ../../sass/main.scss */
+/* line 163, ../../sass/main.scss */
 img {
   display: block;
   margin: 0 auto;
 }
+@media (max-width: 767px) {
+  /* line 163, ../../sass/main.scss */
+  img {
+    width: 90%;
+  }
+}
 
-/* line 163, ../../sass/main.scss */
+@media (max-width: 767px) {
+  /* line 171, ../../sass/main.scss */
+  .arrow-link img {
+    width: 100px;
+  }
+}
+
+/* line 177, ../../sass/main.scss */
 .section1 img {
   margin-top: 30px;
 }
 
-/* line 167, ../../sass/main.scss */
+/* line 181, ../../sass/main.scss */
 .section1 img.ipad {
   margin-top: 40px;
 }
 
-/* line 171, ../../sass/main.scss */
+/* line 185, ../../sass/main.scss */
 .kickstarter-btn {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
   opacity: 0.7;
 }
 
-/* line 175, ../../sass/main.scss */
+/* line 189, ../../sass/main.scss */
 a#kickstarter {
   z-index: 999;
 }
 
-/* line 179, ../../sass/main.scss */
+/* line 193, ../../sass/main.scss */
 .kickstarter-btn:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
 
-/* line 183, ../../sass/main.scss */
+/* line 197, ../../sass/main.scss */
 .section1 {
   background: rgba(0, 0, 0, 0) url(../img/bkg1.jpg) no-repeat;
 }
 
-/* line 187, ../../sass/main.scss */
+/* line 201, ../../sass/main.scss */
 .section2 {
   background: rgba(0, 0, 0, 0) url(../img/bkg2.jpg) no-repeat;
 }
 
-/* line 191, ../../sass/main.scss */
+/* line 205, ../../sass/main.scss */
 .section3 {
   background: rgba(0, 0, 0, 0) url(../img/bkg3.jpg) no-repeat;
 }
 
-/* line 195, ../../sass/main.scss */
+/* line 209, ../../sass/main.scss */
 .section4 {
   background: rgba(0, 0, 0, 0) url(../img/bkg4.jpg) no-repeat;
 }
 
-/* line 199, ../../sass/main.scss */
+/* line 213, ../../sass/main.scss */
 .section5 {
   background: rgba(0, 0, 0, 0) url(../img/bkg5.jpg) no-repeat;
 }
 
-/* line 203, ../../sass/main.scss */
+/* line 217, ../../sass/main.scss */
 .section1, .section2, .section3, .section4, .section5 {
   background-size: cover;
   height: 812px;
   padding-top: 40px;
   text-align: center;
 }
+@media (max-width: 767px) {
+  /* line 217, ../../sass/main.scss */
+  .section1, .section2, .section3, .section4, .section5 {
+    height: 600px;
+  }
+}
 
-/* line 210, ../../sass/main.scss */
+/* line 227, ../../sass/main.scss */
 .section4 {
   height: 740px;
 }
+@media (max-width: 767px) {
+  /* line 227, ../../sass/main.scss */
+  .section4 {
+    height: 600px;
+  }
+}
 
-/* line 214, ../../sass/main.scss */
+/* line 234, ../../sass/main.scss */
 .section5 {
   height: 1000px;
   padding-top: 40px;
 }
+@media (max-width: 767px) {
+  /* line 234, ../../sass/main.scss */
+  .section5 {
+    height: 600px;
+  }
+}
 
-/* line 219, ../../sass/main.scss */
+/* line 242, ../../sass/main.scss */
 .more-container {
   position: relative;
   width: 833px;
   margin: 0 auto;
   margin-top: 80px;
 }
+@media (max-width: 767px) {
+  /* line 242, ../../sass/main.scss */
+  .more-container {
+    width: 100%;
+  }
+}
 
-/* line 226, ../../sass/main.scss */
+@media (max-width: 767px) {
+  /* line 252, ../../sass/main.scss */
+  .more-container h3 {
+    font-size: 18px;
+  }
+}
+
+/* line 258, ../../sass/main.scss */
 .metronome {
   top: -40px;
   left: 70px;
 }
+@media (max-width: 767px) {
+  /* line 258, ../../sass/main.scss */
+  .metronome {
+    top: -30px;
+    left: -18px;
+  }
+}
 
-/* line 231, ../../sass/main.scss */
+/* line 267, ../../sass/main.scss */
 .visual-count {
   top: -40px;
   right: 98px;
 }
+@media (max-width: 767px) {
+  /* line 267, ../../sass/main.scss */
+  .visual-count {
+    top: -30px;
+    right: -2px;
+  }
+}
 
-/* line 236, ../../sass/main.scss */
+/* line 276, ../../sass/main.scss */
 .song-linking {
   top: 346px;
   left: 108px;
 }
+@media (max-width: 767px) {
+  /* line 276, ../../sass/main.scss */
+  .song-linking {
+    top: 98px;
+    left: 8px;
+  }
+}
 
-/* line 241, ../../sass/main.scss */
+/* line 285, ../../sass/main.scss */
 .unlimited-sets {
   top: 346px;
   right: 106px;
 }
+@media (max-width: 767px) {
+  /* line 285, ../../sass/main.scss */
+  .unlimited-sets {
+    top: 98px;
+    right: 12px;
+  }
+}
 
-/* line 246, ../../sass/main.scss */
+/* line 294, ../../sass/main.scss */
 footer {
   text-align: center;
   margin-top: -74px;
   height: 200px;
 }
 
-/* line 252, ../../sass/main.scss */
+/* line 300, ../../sass/main.scss */
 footer a, footer a:hover {
   color: #14e06e;
 }
 
-/* line 256, ../../sass/main.scss */
+/* line 304, ../../sass/main.scss */
 .fixed {
   position: fixed;
   bottom: 10px;
   left: 50%;
   margin-left: -226px;
+}
+@media (max-width: 767px) {
+  /* line 304, ../../sass/main.scss */
+  .fixed {
+    margin-left: -156px;
+  }
 }
 
 /* ==========================================================================
@@ -275,7 +365,7 @@ footer a, footer a:hover {
 /*
  * Image replacement
  */
-/* line 273, ../../sass/main.scss */
+/* line 324, ../../sass/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -284,7 +374,7 @@ footer a, footer a:hover {
   *text-indent: -9999px;
 }
 
-/* line 281, ../../sass/main.scss */
+/* line 332, ../../sass/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -295,7 +385,7 @@ footer a, footer a:hover {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 292, ../../sass/main.scss */
+/* line 343, ../../sass/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -304,7 +394,7 @@ footer a, footer a:hover {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 301, ../../sass/main.scss */
+/* line 352, ../../sass/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -320,7 +410,7 @@ footer a, footer a:hover {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 318, ../../sass/main.scss */
+/* line 369, ../../sass/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -334,7 +424,7 @@ footer a, footer a:hover {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 331, ../../sass/main.scss */
+/* line 382, ../../sass/main.scss */
 .invisible {
   visibility: hidden;
 }
@@ -350,7 +440,7 @@ footer a, footer a:hover {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 348, ../../sass/main.scss */
+/* line 399, ../../sass/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -359,7 +449,7 @@ footer a, footer a:hover {
   /* 2 */
 }
 
-/* line 353, ../../sass/main.scss */
+/* line 404, ../../sass/main.scss */
 .clearfix:after {
   clear: both;
 }
@@ -368,7 +458,7 @@ footer a, footer a:hover {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 362, ../../sass/main.scss */
+/* line 413, ../../sass/main.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -389,7 +479,7 @@ footer a, footer a:hover {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 389, ../../sass/main.scss */
+  /* line 440, ../../sass/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -398,18 +488,18 @@ footer a, footer a:hover {
     text-shadow: none !important;
   }
 
-  /* line 397, ../../sass/main.scss */
+  /* line 448, ../../sass/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 401, ../../sass/main.scss */
+  /* line 452, ../../sass/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 405, ../../sass/main.scss */
+  /* line 456, ../../sass/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -417,33 +507,33 @@ footer a, footer a:hover {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 415, ../../sass/main.scss */
+  /* line 466, ../../sass/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 420, ../../sass/main.scss */
+  /* line 471, ../../sass/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 425, ../../sass/main.scss */
+  /* line 476, ../../sass/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 430, ../../sass/main.scss */
+  /* line 481, ../../sass/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 434, ../../sass/main.scss */
+  /* line 485, ../../sass/main.scss */
   img {
     max-width: 100% !important;
   }
@@ -452,7 +542,7 @@ footer a, footer a:hover {
     margin: 0.5cm;
 }
 
-  /* line 444, ../../sass/main.scss */
+  /* line 495, ../../sass/main.scss */
   p,
   h2,
   h3 {
@@ -460,7 +550,7 @@ footer a, footer a:hover {
     widows: 3;
   }
 
-  /* line 450, ../../sass/main.scss */
+  /* line 501, ../../sass/main.scss */
   h2,
   h3 {
     page-break-after: avoid;
