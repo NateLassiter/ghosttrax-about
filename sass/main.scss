@@ -219,6 +219,7 @@ a#kickstarter {
     height: 812px;
     padding-top: 40px;
     text-align: center;
+    background-position:center;
     @include breakpoint(mobile){
      height: 600px;
     }
@@ -295,6 +296,8 @@ footer {
     text-align: center;
     margin-top: -74px;
     height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 footer a, footer a:hover  {
@@ -309,6 +312,13 @@ footer a, footer a:hover  {
     margin-left: -226px;
     @include breakpoint(mobile){
      margin-left: -156px; 
+    }
+}
+
+.main-container {
+    @include breakpoint(mobile){
+     margin-right: auto;
+    margin-left: auto;
     }
 }
 
